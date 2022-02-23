@@ -33,7 +33,7 @@
 
 
 .container{
-    width: 1200px;
+    width: 1230px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -45,8 +45,6 @@
     display: flex;
     align-items:center;
 }
-
-
 
 .nav{
     text-decoration: none;
@@ -74,8 +72,6 @@
     color:var(--title-text-color);
     
 }
-
-
 
 .nav-list{
     display:flex;
@@ -212,11 +208,13 @@
 
 .features{
     display: flex;
+    /* flex-wrap: wrap; */
 
 }
 .features-item{
-    width: 270px;
+    /* width: 270px; */
     background-color:tomato;
+    width: calc((100%-90)/4);
 
 }
 .features-title{
@@ -366,7 +364,7 @@
 }
 
 .item-picture{
-    width:calc((100%-60px) / 3);
+    width: calc((100%-60px)/3;
     margin-right:  30px;
     margin-bottom: 30px;
 }

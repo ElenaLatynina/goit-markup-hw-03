@@ -214,7 +214,7 @@
 .features-item{
     /* width: 270px; */
     background-color:tomato;
-    width: calc((100%-90)/4);
+    width:calc((100%-90px)/4);
 
 }
 .features-title{
@@ -327,6 +327,9 @@
     display: flex;
     justify-content: center;
 }
+.project-item{
+    width: calc((100%-90px)/3);
+}
 
 .project-item:not(:last-child){
     margin-right: 8px;
@@ -364,7 +367,7 @@
 }
 
 .item-picture{
-    width: calc((100%-60px)/3;
+    width: calc((100%-60px)/3);
     margin-right:  30px;
     margin-bottom: 30px;
 }

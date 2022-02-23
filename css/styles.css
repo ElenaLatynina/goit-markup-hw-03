@@ -249,6 +249,7 @@
 .activities>li{
     width: calc(100%-60px)/3;
     margin-top: 50px;
+    padding-bottom: 94px;
 }
 
 .activities>li:not(:last-child){
@@ -263,7 +264,25 @@
 .section-team{
     background-color:var(--secondary-background-color);
 }
+
+.team{
+    display: flex;
+  
+}
+
+
+.team>li{
+    width: calc(100%-90px)/4;
+
+}
+
+.team>li:not(:last-child){
+    margin-right: 30px;
+}
+
 .name{
+    margin-top: 30px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -275,6 +294,8 @@
 }
     
 .job{
+    margin-top: 10px;
+    
     font-size: 16px;
     line-height: 1.18;
     text-align: center;

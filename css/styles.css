@@ -24,11 +24,13 @@
     h1,h2,h3,h4,h5,h6,p {
         margin-top: 0px;
         margin-bottom: 0px;
+        
     }
 
     ul {
         list-style: none;
         margin: 0px;
+       
     }
 
 
@@ -44,6 +46,8 @@
 .container.main{
     display: flex;
     align-items:center;
+
+    border:1 px solid rgba(236, 236, 236, 1);
 }
 
 .nav{
@@ -212,7 +216,7 @@
 .features-item{
     
     background-color:tomato;
-    width:calc(100%/4 -30px);
+    width: 270px;
 
 }
 .features-title{
@@ -238,6 +242,19 @@
   }
 
   /* Чем мы занимаемся */
+  .activities{
+      display: flex;
+  }
+    
+.activities>li{
+    width: calc(100%-60px)/3;
+    margin-top: 50px;
+}
+
+.activities>li:not(:last-child){
+    margin-right: 30px;
+}
+  
   .section-title{
       margin-bottom: 50px;
   }

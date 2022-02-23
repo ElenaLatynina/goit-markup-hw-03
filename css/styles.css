@@ -295,7 +295,7 @@
     
 .job{
     margin-top: 10px;
-    
+
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -306,7 +306,9 @@
 }
 
 /* footer */
+
 .footer{
+    display: flex;
     background-color:var(--dark-background-color);
     
 }
@@ -337,7 +339,9 @@
 }
 
 .add{
-     font-style: normal;
+    flex-direction: column;
+    
+    font-style: normal;
 }
 .post-add{
     font-size: 14px;

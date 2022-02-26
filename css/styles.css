@@ -278,6 +278,7 @@
 
 .team>li{
     width: calc(100%-90px)/4;
+    padding-bottom: 94px;
 
 }
 
@@ -425,6 +426,10 @@
    margin-top: var(--examples-item-gap);
    border-bottom: 1px solid #eeeeee;
     
+}
+
+.examples-item:nth-last-child(-n+3){
+    padding-bottom: 94px;
 }
 
 .project-content{

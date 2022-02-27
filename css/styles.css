@@ -87,9 +87,6 @@
 }
 
 .nav-list-link{
-    padding-top: 32px;
-    padding-bottom: 29px;
-
     color: var(--title-text-color);
     text-decoration:none;
     font-weight: 500;
@@ -122,14 +119,12 @@
 .contacts-item{
     align-items: center; 
 }
-.contacts>li:not(last-child){
+.contacts>li:not(:last-child){
     margin-right: 50px;
 }
 
 
 .contacts-mail{
-    margin-right: 50px;
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -145,8 +140,6 @@
     
 }
 .contacts-phone{
-    margin-right: 0px;
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -166,7 +159,7 @@
     padding-top: 200px;
     padding-bottom: 200px;
     background-color:var(--dark-background-color);
-   text-align: center;
+    text-align: center;
 }
 
 .hero-title{
@@ -182,7 +175,6 @@
 }
 
 .hero-button{
-
     font-family:inherit;
     font-weight:900;
     font-size: 16px;
@@ -200,7 +192,14 @@
     
     }
 /* section features*/
-
+.features-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.features{
+    /* padding-bottom: 94px; */
+    /* display: flex; */
+}
 .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -209,10 +208,6 @@
     letter-spacing: 0.03em;
 
     color:var(--title-text-color);
-}
-
-.features{
-    display: flex;
 }
 
 .features-item{
@@ -233,8 +228,7 @@
     text-transform: uppercase;
     color:var(--title-text-color);
 
-    margin-top: 94px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .features-desс{
@@ -243,13 +237,13 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
-
-    margin-bottom: 94px;
+    
   }
 
   /* Чем мы занимаемся */
   .activities{
-      display: flex;
+    display: flex;
+    /* padding-bottom: 94px; */
   }
     
 .activities>li{
@@ -277,7 +271,6 @@
     display: flex;
 }
 
-
 .team>li{
     width: calc(100%-90px)/4;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); */
@@ -287,10 +280,11 @@
 .team>li:not(:last-child){
     margin-right: 30px;
 }
-
+.team-member{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .name{
-    margin-top: 30px;
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -309,8 +303,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
-
-    margin-bottom: 30px;
+   
 }
 
 /* footer */
@@ -378,6 +371,7 @@
 }
 /* Портофолио */
 .projects{
+    padding-top: 94px;
     display: flex;
     justify-content: center;
 }

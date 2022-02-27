@@ -81,12 +81,12 @@
     display:flex;
     align-items: center; 
     margin-left: 90px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 
 .nav-list-link{
-    /* display: flex;
-    text-align: center; */
     padding-top: 32px;
     padding-bottom: 29px;
 
@@ -182,7 +182,7 @@
 }
 
 .hero-button{
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 
     font-family:inherit;
     font-weight:900;

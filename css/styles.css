@@ -23,44 +23,43 @@
     }
 
     h1,h2,h3,h4,h5,h6,p {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        
+        margin: 0px;
+        margin: 0px;
     }
 
     ul {
         display: flex;
         list-style: none;
         margin: 0px;
-       
+        padding: 0px;
     }
 
+.header{
+    border bottom: 1px solid rgba(236, 236, 236, 1);
 
+}
 .container{
-    width: 1230px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
  
 }
-
-.container.main{
+.container-header{
     display: flex;
-    align-items:center;
-
-    border bottom: ;:1px solid rgba(236, 236, 236, 1);
+    align-items: center;
 }
 
 .nav{
-    text-decoration: none;
     display:flex;
+    align-items: center;
+
+    text-decoration: none;
+    
 }
 
 .nav-logo{
-    display: flex;
-    align-items:center;
-   
     font-family: var(--secondary-font-family);
     font-size: 26px;
     font-weight: 700;
@@ -80,12 +79,14 @@
 
 .nav-list{
     display:flex;
+    align-items: center; 
     margin-left: 90px;
 
 }
 
 .nav-list-link{
-    display: block;
+    /* display: flex;
+    text-align: center; */
     padding-top: 32px;
     padding-bottom: 29px;
 
@@ -98,7 +99,7 @@
     
 }
 
-.item:not(last-child) {
+.item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -118,7 +119,9 @@
     margin-left: auto;
 
 }
-
+.contacts-item{
+    align-items: center; 
+}
 .contacts>li:not(last-child){
     margin-right: 50px;
 }
@@ -150,7 +153,6 @@
     letter-spacing: 0.02em;
     text-decoration:none;
     color:var(--primary-text-color);
-
     
 }
 
@@ -161,6 +163,8 @@
 
 /* hero */
 .hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color:var(--dark-background-color);
    text-align: center;
 }
@@ -173,9 +177,7 @@
     letter-spacing: 0.06em;
     color:var(--primary-white-color);
 
-    padding-top: 200px;
     margin-bottom: 30px;
-   
 
 }
 
@@ -279,6 +281,9 @@
 .team>li{
     width: calc(100%-90px)/4;
     padding-bottom: 94px;
+    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); */
+    /* border-radius: 0px 0px 4px 4px; */
+
 
 }
 

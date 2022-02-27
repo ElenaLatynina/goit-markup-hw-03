@@ -296,8 +296,6 @@
 }
     
 .job{
-    margin-top: 10px;
-
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -310,9 +308,7 @@
 
 .footer{
     background-color:var(--dark-background-color);
-    
 }
-
 .logo{
     padding-left: 215px;
     padding-top: 60px;
@@ -329,7 +325,6 @@
 }
 .footer-logo-begin{
     color:var(--accent-color);
-    
 }
 
 .footer-logo-end {
@@ -370,8 +365,12 @@
     text-decoration: underline;
 }
 /* Портофолио */
-.projects{
+.projects-section{
     padding-top: 94px;
+    padding-bottom: 94px;
+}
+.projects{
+    /* padding-top: 94px; */
     display: flex;
     justify-content: center;
 }
@@ -410,7 +409,6 @@
     flex-basis: calc(100%/3 - var(--examples-item-gap));
     margin-left: calc(-1*var(--examples-item-gap));
     margin-top: calc(-1*var(--examples-item-gap));
-
     
 }
 
@@ -420,10 +418,6 @@
    margin-top: var(--examples-item-gap);
    border-bottom: 1px solid #eeeeee;
     
-}
-
-.examples-item:nth-last-child(-n+3){
-    padding-bottom: 94px;
 }
 
 .project-content{

@@ -308,9 +308,11 @@
 .logo{
     padding-left: 215px;
     padding-top: 60px;
-    margin-bottom: 20px;
+    padding-bottom: 60px;
+   
 }
 .footer-logo{
+    display: block;
     font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
@@ -340,12 +342,8 @@
     
 }
 .add-info{
-    display: flex;
-    flex-direction: column;
-
     padding-left: 215px;
-    padding-bottom: 60px;
-    
+   
 }
 
 .footer-contacts{
@@ -366,7 +364,6 @@
     padding-bottom: 94px;
 }
 .projects{
-    /* padding-top: 94px; */
     display: flex;
     justify-content: center;
 }

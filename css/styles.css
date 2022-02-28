@@ -208,10 +208,11 @@
 
     color:var(--title-text-color);
 }
-
-.features-item{
+.features-list{
     display: flex;
-    justify-content: space-evenly;
+    
+}
+.features-item{
     width: calc(100%/4)-30px;
 
 }
@@ -240,15 +241,16 @@
   }
 
   /* Чем мы занимаемся */
-  .activities{
+.activities-section{
+    padding-bottom: 94px;
+}
+.activities{
     display: flex;
     
   }
     
 .activities>li{
     width: calc(100%-60px)/3;
-    margin-top: 50px;
-    padding-bottom: 94px;
 }
 
 .activities>li:not(:last-child){

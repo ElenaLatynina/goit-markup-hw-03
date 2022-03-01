@@ -305,15 +305,13 @@
 /* footer */
 
 .footer{
-    background-color:var(--dark-background-color);
-}
-.logo{
-    padding-left: 215px;
     padding-top: 60px;
     padding-bottom: 60px;
-   
+    background-color:var(--dark-background-color);
 }
+
 .footer-logo{
+    margin-bottom: 20px;
     display: block;
     font-family: var(--secondary-font-family);
     font-weight: 700;
@@ -335,7 +333,6 @@
     font-style: normal;
 }
 .post-add{
-    padding-left: 215px;
     margin-bottom: 9px;
     font-size: 14px;
     line-height: 1.17;
@@ -343,10 +340,12 @@
     color:var(--primary-white-color);
     
 }
-.add-info{
-    padding-left: 215px;
-   
+.footer-contacts:not(:last-child){
+    margin-bottom: 9px;
 }
+ 
+   
+
 
 .footer-contacts{
     font-size: 14px;

@@ -12,7 +12,7 @@
     --dark-background-color: rgba(47, 48, 58, 1);
     --primary-white-color: rgba(255, 255, 255, 1);
     
-    --examples-item-gap:15px;
+    --examples-item-gap:30px;
 }
 .body{
     font-family:var(--main-font-family);
@@ -364,14 +364,12 @@
 .projects{
     display: flex;
     justify-content: center;
-}
-
-.project-button { 
-    padding: 6px 22px;
     margin-bottom: 50px;
+}
+.project-item:not(:last-child){
     margin-right: 8px;
-  
-    
+}
+.project-button { 
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -387,6 +385,7 @@
     border-radius: 4px;
 
 }
+
 
 .project-button:hover,
 .project-button:focus {
